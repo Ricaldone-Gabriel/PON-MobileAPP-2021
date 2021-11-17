@@ -22,3 +22,18 @@ context.strokeStyle = 'blue';
     "name": "John",
     "city": "New York"
 }
+
+// Reference the function
+new Libro("War of the Worlds", "H G Wells");
+new Libro("The Martian", "Andy Weir");
+
+/**
+ * Represents a book.
+ *
+ * @param {string} titolo Title of the book
+ * @param {string} author Who wrote the book
+ */
+function libro(titolo, author) {
+    this.title = titolo;
+    this.author = author;
+}
